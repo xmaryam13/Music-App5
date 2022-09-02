@@ -124,6 +124,10 @@ def pause():
 
 
 def musicWindow():
+    global song_counter
+    global filePathLabel
+    global listbox
+    global infoLabel
     window = Tk()
     window.title('Music Window')
     window.geometry('300x300')
